@@ -70,8 +70,6 @@ class ProfileController extends Controller
 
         return redirect()->route('profile.edit')->with('success', 'Profile updated successfully.');
     }
-
-
     /**
      * Delete the user's account.
      */
