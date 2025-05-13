@@ -8,7 +8,6 @@ class HotelsTableSeeder extends Seeder
 {
     public function run()
     {
-<<<<<<< Updated upstream
 
         // Create hotel entries with prices
         Hotel::create([
@@ -133,7 +132,6 @@ class HotelsTableSeeder extends Seeder
             ['name' => 'Seaview Lodge', 'location' => "Cox's bazar"],
             ['name' => 'Suite', 'location' => "Cox's bazar"],
             ['name' => 'Skyplane hotel', 'location' => "Cox's bazar"],
-=======
         DB::table('hotels')->insert([
             ['name' => 'Hotel Sunshine', 'location' => "Cox's bazar", 'price' => 100],
             ['name' => 'Ocean View Resort', 'location' => "Cox's bazar", 'price' => 200],
@@ -141,7 +139,6 @@ class HotelsTableSeeder extends Seeder
             ['name' => 'Seaview Lodge', 'location' => "Cox's bazar", 'price' => 180],
             ['name' => 'Suite', 'location' => "Cox's bazar", 'price' => 250],
             ['name' => 'Skyplane hotel', 'location' => "Cox's bazar", 'price' => 300],
->>>>>>> Stashed changes
         ]);
     }
 }

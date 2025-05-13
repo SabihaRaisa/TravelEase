@@ -156,7 +156,7 @@
 
     <!-- Footer Section -->
     <footer class="text-center py-4 shadow-md">
-        <p>&copy; 2024 <a href="#" class="hover:underline">TravelEase</a>. All Rights Reserved.</p>
+        <p>&copy; 2025 <a href="#" class="hover:underline">TravelEase</a>. All Rights Reserved.</p>
     </footer>
 
 </body>
